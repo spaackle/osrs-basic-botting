@@ -33,10 +33,8 @@ def InventorySpace():
         inventory = data['inventory']
         for item in inventory:
             if json.dumps(item).startswith('{"index": 27'):
-                print('Inven Full')
                 return False
         else:
-            print('Inven Empty')
             return True
     except:
         return
@@ -126,12 +124,10 @@ def RunEnergy():
     gray = cv2.GaussianBlur(gray, (5, 5), 0)
     energy_result = cv2.matchTemplate(gray, energy, cv2.TM_CCOEFF_NORMED)
     _, max_val, _, max_loc = cv2.minMaxLoc(energy_result)
-    print(max_val)
     if max_val > 0.9:
         target_x, target_y = max_loc[0] + energy.shape[1] / 2, max_loc[1] + energy.shape[0] / 2
         pyautogui.moveTo(target_x + region[0], target_y + region[1], duration=0.2)
         pyautogui.click()
-        print('Running.')
         time.sleep(0.5)
 
 if __name__ == '__main__':

@@ -62,7 +62,7 @@ def Pathing():
                 pyautogui.click()
                 time.sleep(2)
 
-def MineCopper():
+def Mine():
     upper_red = np.array([255, 0, 255])
     lower_red = np.array([255, 0, 255])
     region = (rect.left, rect.top, rect.right, rect.bottom)
@@ -115,7 +115,7 @@ def BankDeposit():
             else:
                 return
 
-def RunEnergy():
+def RunToggle():
     energy = cv2.imread('images/energy.png', cv2.IMREAD_GRAYSCALE)
     energy = cv2.GaussianBlur(energy, (5, 5), 0)
     region = (rect.left, rect.top, rect.right, rect.bottom)
@@ -131,8 +131,8 @@ def RunEnergy():
         time.sleep(0.5)
 
 if __name__ == '__main__':
-    copper_x_range = range(3300, 3304)
-    copper_y_range = range(3282, 3285)
+    ore_x_range = range(3300, 3304)
+    ore_y_range = range(3282, 3285)
     bank_x_range = range(3269, 3272)
     bank_y_range = range(3162, 3173)
     past_mine = range(3286, 3290)
@@ -141,31 +141,31 @@ if __name__ == '__main__':
         if InventorySpace() == True:
             if current_x in bank_x_range and current_y in bank_y_range:
                 pyautogui.press("o")
-                RunEnergy()
+                RunToggle()
                 Pathing()
-                if current_x in copper_x_range and current_y in copper_y_range:
+                if current_x in ore_x_range and current_y in ore_y_range:
                     continue
-            elif current_x in copper_x_range and current_y in copper_y_range:
-                MineCopper()
+            elif current_x in ore_x_range and current_y in ore_y_range:
+                Mine()
                 if InventorySpace() == False:
                     pyautogui.press("o")
-                    RunEnergy()
+                    RunToggle()
                     Pathing()
             elif current_y in past_mine:
                 pyautogui.press("p")
-                MineCopper()
+                Mine()
             else:
                 pyautogui.press("o")
-                RunEnergy()
+                RunToggle()
                 Pathing()
         else:
             if current_x in bank_x_range and current_y in bank_y_range:
                 BankDeposit()
-            elif current_x in copper_x_range and current_y in copper_y_range:
+            elif current_x in ore_x_range and current_y in ore_y_range:
                 pyautogui.press("p")
-                RunEnergy()
+                RunToggle()
                 Pathing()
             else:
                 pyautogui.press("p")
-                RunEnergy()
+                RunToggle()
                 Pathing()

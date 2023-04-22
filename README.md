@@ -48,7 +48,7 @@ Then, all you need to do is run server.py, then run miner.py.
 
 # Fighter.py
 
-This script simply fights cows and eats lobsters when low. Rough script, it works but it's messy. I'll likely rewrite this soon.
+This script simply fights cows and eats lobsters when low. Rough script, works but it's messy. I'll likely rewrite this soon.
 
 For this you'll need the following Runelite plugins - Object Marker, Health Notifications
 

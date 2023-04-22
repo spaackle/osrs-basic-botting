@@ -60,6 +60,10 @@ Then you're good to go, just run the script!
 
 # Fighter.py
 
+
+__TEMP REMOVED. WILL REWRITE AND REUPLOAD SOON.__
+
+
 This script simply fights cows and eats lobsters when low. Rough script, works but it's messy. I'll likely rewrite this soon.
 
 For this you'll need the following Runelite plugins - Object Marker, Health Notifications

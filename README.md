@@ -31,9 +31,7 @@ Object Markers is used to mark the bank and ore, Ground Markers is used to mark 
 
 3. For Camera Points, set it up like the following image:
 
-![Camera Points](https://user-images.githubusercontent.com/31822308/233776351-c4e74da2-7234-460a-9beb-691b5b9e00e1.PNG)
-
-
+![Camera Points](https://user-images.githubusercontent.com/31822308/233782849-cd761bf8-b480-47a8-8bc8-d4a5ab447f1b.PNG)
 
 Also, make sure you do the following:
 

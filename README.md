@@ -19,12 +19,8 @@ Object Markers is used to mark the bank and ore, Ground Markers is used to mark 
 
   Also, in the Object Markers settings, select Highlight Clickbox only, and set Border Width to 3.
 
-2. Use Ground Markers to mark the following:
 
-  
-
-
-3. Next, you'll need to use Ground Markers to mark out your path:
+2. Next, you'll need to use Ground Markers to mark out your path:
 
   For the settings, set color to Pure Blue = (Red - 0, Green - 0, Blue - 255), set Border Width to 5, Fill Opacity to 100, and check Draw Tiles On Minimap.
 

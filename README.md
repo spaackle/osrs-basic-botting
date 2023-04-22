@@ -15,16 +15,16 @@ Object Markers is used to mark the bank and ore, Ground Markers is used to mark 
 
 1. Use Object Markers to mark the following:
 
-  Ore - Pure Pink = (Red - 255, Green - 0, Blue - 255)
+  Ore - __Pink__ = (Red - 255, Green - 0, Blue - 255)
 
-  Bank - Pure Red = (Red - 255, Green - 0, Blue - 0)
+  Bank - __Red__ = (Red - 255, Green - 0, Blue - 0)
 
   Also, in the Object Markers settings, select Highlight Clickbox only, and set Border Width to 3.
 
 
 2. Next, you'll need to use Ground Markers to mark out your path:
 
-  For the settings, set color to Pure Blue = (Red - 0, Green - 0, Blue - 255), set Border Width to 5, Fill Opacity to 100, and check Draw Tiles On Minimap.
+  For the settings, set color to __Blue__ = (Red - 0, Green - 0, Blue - 255), set Border Width to 5, Fill Opacity to 100, and check Draw Tiles On Minimap.
 
   You can use Shortest Path to find the most efficient pathing. For this script, simply stand next to the Al Kharid bank stall, open the world map, right click where   the iron ore is, and click Set Target. You'll see a red line leading you to the tile you selected, simply mark the starting tile, then follow the path marking tiles about every 10 tiles or so (just need to have every next tile viewable from the minimap). Once your path is set, you're good to go!
 
@@ -41,6 +41,22 @@ Also, make sure you do the following:
 
 Then, all you need to do is run server.py, then run miner.py.
 
+# Smelter.py
+
+Smelting script for iron ore. Will withdraw iron ore from Al Kharid bank, smelt it, then repeat.
+
+For this you'll need the following Runelite plugins - Object Marker, Ground Markers, Camera Points
+
+1. Use Object Markers to mark the smelter in __Yellow__ (Red - 255, Green - 255, Blue - 0) and mark the bank in __Red__ (Red - 255, Green - 0, Blue - 0)
+
+2. Use Ground Markers to mark the space directly in front of the bank booth, a space in between the bank and the smelter, and the spot directly in front of the smelter. Mark these in __Green__ (Red - 0, Green - 255, Blue - 0)
+
+3. For Camera Points, set it up like the following image:
+
+![Camera Points](https://user-images.githubusercontent.com/31822308/233782849-cd761bf8-b480-47a8-8bc8-d4a5ab447f1b.PNG)
+
+Then you're good to go, just run the script!
+
 
 # Fighter.py
 
@@ -48,9 +64,9 @@ This script simply fights cows and eats lobsters when low. Rough script, works b
 
 For this you'll need the following Runelite plugins - Object Marker, Health Notifications
 
-1. Use Object Markers to mark the cows in Pure Red (Red - 255, Green - 0, Blue - 0)
+1. Use Object Markers to mark the cows in __Red__ (Red - 255, Green - 0, Blue - 0)
 
-2. In Health Notifications, set the Hitpoint Threshold to whatever you think is best (for leveling combat on new accounts and fighting cows, I set this to 4). Also, set the Overlay Color to Pure Blue (Red - 0, Green - 0, Blue - 255), and check Disable Notification.
+2. In Health Notifications, set the Hitpoint Threshold to whatever you think is best (for leveling combat on new accounts and fighting cows, I set this to 4). Also, set the Overlay Color to __Blue__ (Red - 0, Green - 0, Blue - 255), and check Disable Notification.
 
 Then, run the script.
 

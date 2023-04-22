@@ -3,7 +3,7 @@ A few python scripts for simple botting in OSRS. I would recommend running these
 
 # Miner.py
 
-This script is set to mine iron ore from the Al Kharid mine, then once your inventory is full, it paths back to the Al Kharid bank to deposit, and then paths back and repeats. You can edit it for any other mine by changing the X and Y ranges in Main. Fully functional, but you __might__ run into some bugs. At some point, I'll add a video tutorial for setup and configuration.
+This script is set to mine iron ore from the Al Kharid mine, then once your inventory is full, it paths back to the Al Kharid bank to deposit, and then paths back and repeats. Fully functional, but you __might__ run into some bugs. At some point, I'll add a video tutorial for setup and configuration.
 
 You can find a video of the script in action here: https://www.youtube.com/watch?v=p-4p_eerk34&ab_channel=spackle
 

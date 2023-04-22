@@ -71,9 +71,9 @@ class Processor:
                 break
 
     def combatcow():
-        combatcow = cv2.imread('combatcow.png', 0)
-        combatcow2 = cv2.imread('combatcow2.png', 0)
-        combatcow3 = cv2.imread('combatcow3.png', 0)
+        combatcow = cv2.imread('images/combatcow.png', 0)
+        combatcow2 = cv2.imread('images/combatcow2.png', 0)
+        combatcow3 = cv2.imread('images/combatcow3.png', 0)
         screen = np.array(ImageGrab.grab())
         gs = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
         cowcombatloc = cv2.matchTemplate(gs, combatcow, cv2.TM_CCOEFF_NORMED)
@@ -92,7 +92,7 @@ class Processor:
 
     def healUp():
         print('checking heals')
-        lobster = cv2.imread('lobster.png', cv2.IMREAD_COLOR)
+        lobster = cv2.imread('images/lobster.png', cv2.IMREAD_COLOR)
         upper_blue = np.array([255, 0, 0])
         lower_blue = np.array([150, 0, 0])
         screen = np.array(ImageGrab.grab())

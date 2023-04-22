@@ -15,7 +15,7 @@ window = app.window(title=window_title)
 rect = window.rectangle()
 
 def CurrentTile():
-    global current_x, current_y, data2
+    global current_x, current_y
     try:
         with open('live_data.json') as f:
             data = json.load(f)

@@ -44,3 +44,18 @@ Also, make sure you do the following:
 2. Line 12 - Replace UsernameHere with your username
 
 Then, all you need to do is run server.py, then run miner.py.
+
+
+# Fighter.py
+
+This script simply fights cows and eats lobsters when low. Works but it's messy, will likely rewrite this soon.
+
+For this you'll need the following Runelite plugins - Object Marker, Health Notifications
+
+1. Use Object Markers to mark the cows in Pure Red (Red - 255, Green - 0, Blue - 0)
+
+2. In Health Notifications, set the Hitpoint Threshold to whatever you think is best (for leveling combat on new accounts and fighting cows, I set this to 4). Also, set the Overlay Color to Pure Blue (Red - 0, Green - 0, Blue - 255), and check Disable Notification.
+
+Then, run the script.
+
+

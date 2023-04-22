@@ -21,17 +21,17 @@ Object Markers is used to mark the bank and ore, Ground Markers is used to mark 
 
 2. Use Ground Markers to mark the following:
 
-  Tiles - Pure Blue = (Red - 0, Green - 0, Blue - 255)
+  
 
 
 3. Next, you'll need to use Ground Markers to mark out your path:
 
-  In Ground Markers settings, set Border Width to 5, Fill Opacity to 100, and check Draw Tiles On Minimap.
+  For the settings, set color to Pure Blue = (Red - 0, Green - 0, Blue - 255), set Border Width to 5, Fill Opacity to 100, and check Draw Tiles On Minimap.
 
   You can use Shortest Path to find the most efficient pathing. For this script, simply stand next to the Al Kharid bank stall, open the world map, right click where   the iron ore is, and click Set Target. You'll see a red line leading you to the tile you selected, simply mark the starting tile, then follow the path marking tiles about every 10 tiles or so (just need to have every next tile viewable from the minimap). Once your path is set, you're good to go!
 
 
-4. For Camera Points, set it up like the following image:
+3. For Camera Points, set it up like the following image:
 
 ![Camera Points](https://user-images.githubusercontent.com/31822308/233776351-c4e74da2-7234-460a-9beb-691b5b9e00e1.PNG)
 

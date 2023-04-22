@@ -10,7 +10,7 @@ You can find a video of the script in action here: https://www.youtube.com/watch
 To use this, you'll need the following RuneLite plugins - Object Markers, Ground Markers, Status Socket, Shortest Path, Camera Points
 
 
-Object Markers is used to mark the bank and ore, Ground Markers is used to mark out the path, Camera Points is used to setup the camera for each stage, and Status Socket is a plugin that sends info to a local server, and is used to update the current tile. You'll need to run server.py to collect that info.
+Object Markers is used to mark the bank and ore, Ground Markers is used to mark out the path, Camera Points is used to setup the camera for each stage, Shortest Path is used initially to help with marking out the most efficient tile path, and Status Socket is a plugin that sends info to a local server, and is used to update the current tile. You'll need to run server.py to collect that info.
 
 
 1. Use Object Markers to mark the following:

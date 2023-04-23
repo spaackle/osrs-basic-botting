@@ -12,9 +12,6 @@ To use this, you'll need the following RuneLite plugins - Object Markers, Ground
 
 Object Markers is used to mark the bank and ore, Ground Markers is used to mark out the path, Camera Points is used to setup the camera for each stage, Shortest Path is used initially to help with marking out the most efficient tile path, and Status Socket is a plugin that sends info to a local server, and is used to update the current tile. You'll need to run server.py to collect that info.
 
-Known Bugs: The bot can sometimes get stuck behind the bank when pathing back if it's running. Will fix this soon but if it becomes too much of an issue for you, you can just comment off the RunToggle() calls at the bottom of the script.
-
-
 1. Use Object Markers to mark the following:
 
   Ore - __Pink__ = (Red - 255, Green - 0, Blue - 255)
@@ -42,6 +39,8 @@ Also, make sure you do the following:
 2. Line 12 - Replace UsernameHere with your username
 
 Then, all you need to do is run server.py, then run miner.py.
+
+Known Bugs: The bot can sometimes get stuck behind the bank when pathing back if it's running. Will fix this soon but if it becomes too much of an issue for you, you can just comment off the RunToggle() calls at the bottom of the script.
 
 # Smelter.py
 

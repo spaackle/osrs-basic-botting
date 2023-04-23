@@ -1,5 +1,5 @@
 # osrs-basic-botting
-A few python scripts for simple botting in OSRS. I would recommend running these on a virtual machine so they can run in the background while you do other things.
+A few python scripts for simple botting in OSRS. I would recommend running these on a virtual machine so they can run in the background while you do other things. Have used these pretty extensively and as far as I know they're undetectable, but use at your own risk.
 
 # Miner.py
 

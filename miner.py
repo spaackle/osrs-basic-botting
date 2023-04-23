@@ -148,7 +148,7 @@ if __name__ == '__main__':
             elif current_x in ore_x_range and current_y in ore_y_range:
                 Mine()
                 if InventorySpace() == False:
-                    pyautogui.press("o")
+                    pyautogui.press("p")
                     RunToggle()
                     Pathing()
             elif current_y in past_mine:

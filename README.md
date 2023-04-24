@@ -40,8 +40,6 @@ Also, make sure you do the following:
 
 Then, all you need to do is run server.py, then run miner.py.
 
-Known Bugs: The bot can sometimes get stuck behind the bank when pathing back if it's running. Will fix this soon but if it becomes too much of an issue for you, you can just comment off the RunToggle calls at the bottom of the script.
-
 # Smelter.py
 
 Smelting script for iron ore. Will withdraw iron ore from Al Kharid bank, smelt it, then repeat.

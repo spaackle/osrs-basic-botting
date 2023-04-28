@@ -1,7 +1,7 @@
 # osrs-basic-botting
 A few python scripts for simple botting in OSRS. I would recommend running these on a virtual machine so they can run in the background while you do other things. Have used these pretty extensively and as far as I know they're undetectable, but use at your own risk.
 
-# Miner.py
+# Miner.py 
 
 This script is set to mine iron ore from the Al Kharid mine, then once your inventory is full, it paths back to the Al Kharid bank to deposit, and then paths back and repeats. Fully functional, but you __might__ run into some bugs. At some point, I'll add a video tutorial for setup and configuration.
 

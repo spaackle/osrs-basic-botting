@@ -1,3 +1,7 @@
+Pretty sure this isn't functional anymore, as you need the Status Socket plugin, and it didn't look like it was still available for Runelite when I briefly checked recently. You'd have to find a way to get that running, or OCR the tile data from another plugin.
+Also, if you have any issues with "live_data.json", just create a blank file called that in the same folder as server.py and it should run, it's just writing to that file iirc.
+
+
 # osrs-basic-botting
 A few python scripts for simple botting in OSRS. I would recommend running these on a virtual machine so they can run in the background while you do other things. Have used these pretty extensively and as far as I know they're undetectable, but use at your own risk.
 
